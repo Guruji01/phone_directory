@@ -5,7 +5,7 @@ class App extends Component
 render() {
   return (
  <div>
-    <div>
+    {/*<div>
          Phone Directory
     </div>
 
@@ -14,8 +14,13 @@ render() {
     <div>
         <span> Name</span><br/>
         <span> Phone </span>
-    </div>
-    </div>
+    </div> */}
+  
+
+    <lable htmlFor = "name">Name</lable>
+    <input id="name" type = "text" placeholder="Type Here"
+     defaultValue ="Jack"/>
+       </div> 
   );
 }
 }
